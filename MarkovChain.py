@@ -3,7 +3,7 @@ import os
 import numpy as np #For matrix multiplication
 import networkx as nx  # For the chain building 
 
-wd = 'C:\\PythonCode' #Your working directory with the data set file in it
+wd = os.getcwd() #Your working directory with the data set file in it
 os.chdir(wd) 
 filename = 'worklist.csv' #file name
 sep1 = ';' #separator in the file
